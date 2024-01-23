@@ -1,7 +1,7 @@
 function Home() {
   return (
     <section>
-      <img src="./img/Home header transparente.webp" alt="" />
+      <img src="/img/Home header transparente.webp" alt="" />
     </section>
   )
 }
