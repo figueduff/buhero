@@ -20,14 +20,14 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home pagina={isMobile ? "img/Home_page_Mobile_1.webp" : "/img/Home_header_transparente.webp"} />} />
+        <Route path="/" element={<Home pagina={isMobile ? "/img/Home_page_Mobile_1.webp" : "/img/Home_header_transparente.webp"} />} />
         <Route path="/fernet" element={<Home pagina={isMobile ? "/img/Productos_Fernet_Mobile_1.webp" : "/img/Productos.webp"} />} />
         <Route path="/experiencia" element={<Home pagina={isMobile ? "/img/Experiencia_Buhero_Mobile_1.webp" : "/img/Experiencia_Buho.webp"} />} />
         <Route path="/maceracion" element={<Home pagina={isMobile ? "/img/Productos_Maceracion_Mobile_1.webp" : "/img/Productos_maceracion_1.webp"} />} />
-        <Route path="/botanicos" element={<Home pagina={isMobile ? "public/img/Productos_Botanicos_Mobile_1.webp" : "/img/Productos_botanicos_1.webp"} />} />
+        <Route path="/botanicos" element={<Home pagina={isMobile ? "/img/Productos_Botanicos_Mobile_1.webp" : "/img/Productos_botanicos_1.webp"} />} />
         <Route path="/reposo" element={<Home pagina={isMobile ? "/img/Productos_Reposo_Mobile_1.webp" : "/img/Productos_reposo_1.webp"} />} />
-        <Route path="/cata" element={<Home pagina={isMobile ? "img/Productos_Cata_Mobile_1.webp" : "/img/Productos_cata_1.webp"} />} />
-        <Route path="/contacto" element={<Home pagina={isMobile ? "img/Contacto_Mobile_1.webp" : "/img/Contacto.webp"} />} />
+        <Route path="/cata" element={<Home pagina={isMobile ? "/img/Productos_Cata_Mobile_1.webp" : "/img/Productos_cata_1.webp"} />} />
+        <Route path="/contacto" element={<Home pagina={isMobile ? "/img/Contacto_Mobile_1.webp" : "/img/Contacto.webp"} />} />
       </Routes>
     </BrowserRouter>
   )
