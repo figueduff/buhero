@@ -4,12 +4,12 @@
     overflow: hidden; 
   }
   
-  .botonFernet {
+  .botonBotanica {
     position: absolute;
-    top: 2.3%; /* Ajusta según la posición vertical deseada */
-    left: 19.5%; /* Ajusta según la posición horizontal deseada */
+    bottom: 170px; 
+    left: 32%; /* Ajusta según la posición horizontal deseada */
     transform: translate(-50%, -50%);
-    padding: 0.8vw 1.5vw;
+    padding: 3vw 4vw;
     background-color: rgba(52, 152, 219, 0.5); /* Color azul con un 50% de transparencia */
     color: #fff;
     border: none;
@@ -17,12 +17,36 @@
     cursor: pointer;
   }
 
-  .botonExperiencia {
+  .botonMaceracion {
     position: absolute;
-    top: 2.3%; /* Ajusta según la posición vertical deseada */
-    left: 30.6%; /* Ajusta según la posición horizontal deseada */
+    bottom: 170px;
+    left: 44%; /* Ajusta según la posición horizontal deseada */
     transform: translate(-50%, -50%);
-    padding: 3vw 4.5vw;
+    padding: 3vw 3vw;
+    background-color: rgba(52, 152, 219, 0.5); /* Color azul con un 50% de transparencia */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .botonReposo {
+    position: absolute;
+    bottom: 170px;
+    left: 56%; /* Ajusta según la posición horizontal deseada */
+    transform: translate(-50%, -50%);
+    padding: 3vw 3vw;
+    background-color: rgba(52, 152, 219, 0.5); /* Color azul con un 50% de transparencia */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .botonCata {
+    position: absolute;
+    bottom: 170px;
+    left: 68%; /* Ajusta según la posición horizontal deseada */
+    transform: translate(-50%, -50%);
+    padding: 3vw 3vw;
     background-color: rgba(52, 152, 219, 0.5); /* Color azul con un 50% de transparencia */
     color: #fff;
     border: none;
@@ -43,7 +67,21 @@ nav {
   
   /* Media query para pantallas más pequeñas */
   @media (max-width: 425px) {
-    .boton-fernet {
-      padding: 3vw 6vw;
+    .botonBotanica{
+        bottom: 140px;
+        left: 35%;
     }
+    .botonMaceracion{
+        bottom: 140px;
+        left: 65%;
+    }
+    .botonReposo{
+        bottom: 90px;
+        left: 35%;
+    }
+    .botonCata{
+        bottom: 90px;
+        left: 65%;
+    }
+
   }
