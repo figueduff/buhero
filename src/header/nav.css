@@ -1,0 +1,57 @@
+/* styles.css */
+
+nav {
+    background-color: rgba(51, 51, 51, 0); /* 0.7 es la opacidad, ajusta según sea necesario */
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin-left: 15%;
+    margin-right: 18%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li {
+    margin-right: 5px;
+  }
+  #experiencia {
+    margin-left: -70px;
+    margin-right: 50px;
+  }
+
+  #home {
+    margin-right: 20px;
+  }
+
+  /* #contacto {
+    margin-right: -40px;
+  } */
+  
+   a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0); /* Hace que el texto sea blanco con 0.7 de opacidad */
+    display: block;
+    padding: 10px;
+  }
+  
+  p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    color: rgba(255, 255, 255, 0); /* Hace que el texto sea blanco con 0.7 de opacidad */
+  }
+  
+  /* Media query para convertir el menú en hamburguesa a 420px */
+  @media (max-width: 425px) {
+    ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  

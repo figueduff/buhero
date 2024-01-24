@@ -1,0 +1,49 @@
+.contenedor-imagen {
+    position: relative;
+    display: inline-block;
+    overflow: hidden; 
+  }
+  
+  .botonFernet {
+    position: absolute;
+    top: 2.3%; /* Ajusta según la posición vertical deseada */
+    left: 19.5%; /* Ajusta según la posición horizontal deseada */
+    transform: translate(-50%, -50%);
+    padding: 0.8vw 1.5vw;
+    background-color: rgba(52, 152, 219, 0.5); /* Color azul con un 50% de transparencia */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .botonExperiencia {
+    position: absolute;
+    top: 2.3%; /* Ajusta según la posición vertical deseada */
+    left: 30.6%; /* Ajusta según la posición horizontal deseada */
+    transform: translate(-50%, -50%);
+    padding: 3vw 4.5vw;
+    background-color: rgba(52, 152, 219, 0.5); /* Color azul con un 50% de transparencia */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+nav {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    z-index: 1; /* Asegura que el menú esté sobre la imagen */
+  }
+  
+  
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 425px) {
+    .boton-fernet {
+      padding: 3vw 6vw;
+    }
+  }
