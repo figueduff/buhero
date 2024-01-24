@@ -18,6 +18,7 @@ function App() {
   }, []);
 
   return (
+    <><p>hola</p>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home pagina={isMobile ? "/img/Home_page_Mobile_1.webp" : "/img/Home_header_transparente.webp"} />} />
@@ -30,6 +31,7 @@ function App() {
         <Route path="/contacto" element={<Home pagina={isMobile ? "/img/Contacto_Mobile_1.webp" : "/img/Contacto.webp"} />} />
       </Routes>
     </BrowserRouter>
+    </>
   )
 }
 
