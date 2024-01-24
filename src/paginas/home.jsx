@@ -1,7 +1,9 @@
+import homeImg from '../assets/img/Home_header_transparente.webp'
+
 function Home() {
   return (
     <section>
-      <img src="../img/Home header transparente.webp" alt="" />
+      <img src={homeImg} alt="" />
     </section>
   )
 }
