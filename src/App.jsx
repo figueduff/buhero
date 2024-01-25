@@ -1,4 +1,4 @@
-import { Route, Routes, HashRouter } from 'react-router-dom'
+import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import { useEffect, useState } from 'react';
 import './App.css'
 import Home from './paginas/home'
@@ -18,7 +18,7 @@ function App() {
   }, []);
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home pagina={isMobile ? "/img/Home_page_Mobile_1.webp" : "/img/Home_header_transparente.webp"} />} />
         <Route path="/fernet" element={<Home pagina={isMobile ? "/img/Productos_Fernet_Mobile_1.webp" : "/img/Productos.webp"} />} />
@@ -29,7 +29,7 @@ function App() {
         <Route path="/cata" element={<Home pagina={isMobile ? "/img/Productos_Cata_Mobile_1.webp" : "/img/Productos_cata_1.webp"} />} />
         <Route path="/contacto" element={<Home pagina={isMobile ? "/img/Contacto_Mobile_1.webp" : "/img/Contacto.webp"} />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
