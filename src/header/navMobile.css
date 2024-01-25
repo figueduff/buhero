@@ -2,6 +2,7 @@
 button.navbar-toggler:hover {
     background-color: transparent !important;
     border-color: transparent !important;
+    outline: none !important;
     }
   
   button.navbar-toggler:active,
@@ -10,4 +11,10 @@ button.navbar-toggler:hover {
   }
   .navbar-toggler{
     outline: none !important;
+    border: none !important;
   }
+  
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+  
