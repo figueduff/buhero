@@ -6,14 +6,15 @@
   }
 
   button{
-    background-color: rgba(52, 152, 219, 0.5); /* Color azul con un 50% de transparencia */
-    color: #fff;
+    background-color: rgba(52, 152, 219, 0); /* Color azul con un 50% de transparencia */
+    color:  rgba(52, 152, 219, 0);
     transform: translate(-50%, -50%);
     padding: 2vw 2vw;
     width: 10vw;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
   }
   
   .botonBotanica {
