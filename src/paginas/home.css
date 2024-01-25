@@ -2,56 +2,40 @@
     position: relative;
     display: inline-block;
     overflow: hidden; 
+    width: 100%;
+  }
+
+  button{
+    background-color: rgba(52, 152, 219, 0.5); /* Color azul con un 50% de transparencia */
+    color: #fff;
+    transform: translate(-50%, -50%);
+    padding: 2vw 2vw;
+    width: 10vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
   
   .botonBotanica {
     position: absolute;
-    bottom: 170px; 
+    bottom: 13vw;
     left: 32%; /* Ajusta según la posición horizontal deseada */
-    transform: translate(-50%, -50%);
-    padding: 3vw 4vw;
-    background-color: rgba(52, 152, 219, 0.5); /* Color azul con un 50% de transparencia */
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
   }
 
   .botonMaceracion {
     position: absolute;
-    bottom: 170px;
-    left: 44%; /* Ajusta según la posición horizontal deseada */
-    transform: translate(-50%, -50%);
-    padding: 3vw 3vw;
-    background-color: rgba(52, 152, 219, 0.5); /* Color azul con un 50% de transparencia */
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    bottom: 13vw;
+    left: 44vw; /* Ajusta según la posición horizontal deseada */
   }
   .botonReposo {
     position: absolute;
-    bottom: 170px;
+    bottom: 13vw;
     left: 56%; /* Ajusta según la posición horizontal deseada */
-    transform: translate(-50%, -50%);
-    padding: 3vw 3vw;
-    background-color: rgba(52, 152, 219, 0.5); /* Color azul con un 50% de transparencia */
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
   }
   .botonCata {
     position: absolute;
-    bottom: 170px;
+    bottom: 13vw;
     left: 68%; /* Ajusta según la posición horizontal deseada */
-    transform: translate(-50%, -50%);
-    padding: 3vw 3vw;
-    background-color: rgba(52, 152, 219, 0.5); /* Color azul con un 50% de transparencia */
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
   }
   
 nav {
@@ -72,21 +56,34 @@ nav {
   
   /* Media query para pantallas más pequeñas */
   @media (max-width: 425px) {
+
+    .botonera{
+      position: relative;
+      bottom: 6vw;
+    }
+
     .botonBotanica{
-        bottom: 140px;
-        left: 35%;
+        bottom:37vw;
+        padding: 1vw 2vw;
+        width: 30vw;
     }
     .botonMaceracion{
-        bottom: 140px;
-        left: 65%;
+      bottom:37vw;
+      padding: 1vw 2vw;
+      width: 30vw;
+      margin-left: 23vw;
     }
     .botonReposo{
-        bottom: 90px;
-        left: 35%;
+      bottom:26vw;
+      padding: 1vw 2vw;
+      width: 30vw;
+      left:32vw;
     }
     .botonCata{
-        bottom: 90px;
-        left: 65%;
+      bottom:26vw;
+      padding: 1vw 2vw;
+      width: 30vw;
+      left:67vw;
     }
     .navbar {
       display: block;

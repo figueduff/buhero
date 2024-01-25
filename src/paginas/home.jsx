@@ -11,22 +11,24 @@ function Home({ pagina }) {
 
   const handleClick = (destino) => {
     navigate(`/${destino}`);
-}
+  }
 
-const contienePagina = ["/fernet", "/botanicos", "/maceracion", "/reposo", "/cata"];
+  const contienePagina = ["/fernet", "/botanicos", "/maceracion", "/reposo", "/cata"];
 
   return (
     <section className="contenedor-imagen">
       <Nav />
-      <NavMobile/>
+      <NavMobile />
       <img src={pagina} alt="Buhero" />
       {contienePagina.includes(pathname) && (
         <>
-      <button className="botonBotanica" onClick={() => handleClick("botanicos")}>fernete</button>
-      <button className="botonMaceracion" onClick={() => handleClick("maceracion")}>experiencia</button>
-      <button className="botonReposo" onClick={() => handleClick("reposo")}>reposorepo</button>
-      <button className="botonCata" onClick={() => handleClick("cata")}>catacataca</button>
-      </>
+          <div className="botonera">
+            <button className="botonBotanica" onClick={() => handleClick("botanicos")}>fernetferne</button>
+            <button className="botonMaceracion" onClick={() => handleClick("maceracion")}>experiencia</button>
+            <button className="botonReposo" onClick={() => handleClick("reposo")}>reposorepo</button>
+            <button className="botonCata" onClick={() => handleClick("cata")}>catacataca</button>
+          </div>
+        </>
       )}
     </section>
   )
