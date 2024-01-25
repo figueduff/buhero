@@ -65,6 +65,10 @@ nav {
   }
 
   
+  .navbar {
+    display: none;
+  }
+  
   
   /* Media query para pantallas más pequeñas */
   @media (max-width: 425px) {
@@ -83,6 +87,12 @@ nav {
     .botonCata{
         bottom: 90px;
         left: 65%;
+    }
+    .navbar {
+      display: block;
+    }
+    .nav {
+      display: none; /* O cualquier estilo específico para la navegación en pantallas pequeñas */
     }
 
   }

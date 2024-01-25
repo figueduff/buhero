@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './home.css';
 import Nav from '../header/nav';
+import NavMobile from '../header/navMobile';
 
 function Home({ pagina }) {
   const navigate = useNavigate();
@@ -17,6 +18,7 @@ const contienePagina = ["/fernet", "/botanicos", "/maceracion", "/reposo", "/cat
   return (
     <section className="contenedor-imagen">
       <Nav />
+      <NavMobile/>
       <img src={pagina} alt="Buhero" />
       {contienePagina.includes(pathname) && (
         <>

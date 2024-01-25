@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import './nav.css';
-import DropDown from './dropdown';
 
 const Nav = () => {
   return (
@@ -24,7 +23,6 @@ const Nav = () => {
           </li>
         </ul>
       </nav>
-      <DropDown/>
     </>
   );
 };

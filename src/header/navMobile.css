@@ -1,0 +1,13 @@
+
+button.navbar-toggler:hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    }
+  
+  button.navbar-toggler:active,
+  button.navbar-toggler:focus {
+    outline: none !important;
+  }
+  .navbar-toggler{
+    outline: none !important;
+  }

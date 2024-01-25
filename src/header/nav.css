@@ -1,14 +1,9 @@
-/* styles.css */
-
 nav {
     background-color: rgba(51, 51, 51, 0); /* 0.7 es la opacidad, ajusta según sea necesario */
     padding: 10px;
+    display: block;
   }
 
-.dropdown{
-  display: none;
-}
-  
   ul {
     list-style: none;
     margin-left: 15%;
@@ -44,19 +39,10 @@ nav {
   }
   
   /* Media query para convertir el menú en hamburguesa a 420px */
-  @media (max-width: 425px) {
-   nav {
-    display: none;
-   }
-   .dropdown{
-    display:block;
-      position: absolute;
-      top: 5px;
-      left: 0;
-      width: 50%;
-      background-color: #333;
-      padding: 10px;
-      z-index: 1; /* Asegura que el menú esté sobre la imagen */
+  /* @media (max-width: 425px) {
+    nav {
+      display: none;
+    }
   }
-  }
+   */
 
